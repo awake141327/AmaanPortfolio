@@ -9,6 +9,7 @@ html, body {
 /* Navigation-Bar */
 
 .nav-bar {
+    width:100%;
     display:flex;
     justify-content: space-around;
     align-items: center;
