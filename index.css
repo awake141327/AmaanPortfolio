@@ -1,0 +1,315 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'source sans pro', 'sans-serif';
+    color:#303030;
+    box-sizing: border-box;
+}
+
+/* Navigation-Bar */
+
+.nav-bar {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:30px 0;
+    margin-bottom:60px;
+    gap:50px;
+    background: #fefefe;
+    box-shadow: 0px 0px 10px grey;
+}
+
+.logo {
+    letter-spacing:1px;
+    font-weight: 100;
+    font-size:18px;
+    margin:0;
+}
+
+.nav-list {
+    display:flex;
+    margin:0;
+    padding:0;
+    gap:40px;
+}
+
+.nav-elements {
+    list-style:none;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    font-size:14px;
+}
+
+.nav-link {
+    text-decoration:none;
+    color:#303030;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color:#0062b9;
+    border-bottom:2px solid #0062b9;
+}
+
+/* Hero-Section */
+
+.hero-section {
+    max-width:650px;
+    height:400px;
+    margin:0 auto;
+    position:relative;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+.title {
+    font-size:4rem;
+    font-weight: 500;
+    margin:0;
+    text-align: right;
+    margin-bottom:10px;
+}
+
+.title strong{
+    display:block;
+    font-size:3.3rem;
+}
+
+.sub-title {
+   font-size:1.5rem; 
+   font-family: 'Roboto Slab', 'sans-serif';
+   color:white;
+   background:#3f83f8;
+   margin:0;
+   text-align: right;
+   padding:7px 20px;
+}
+
+
+.title-img {
+    object-fit: cover;
+    position: absolute;
+    left:30px;
+    box-shadow:0 7px 10px black;
+}
+
+/* AboutMe Section */
+
+.about-me-section {
+    width:80%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0 auto;
+    gap:50px;
+    margin-bottom:100px;
+}
+
+.about-me-title {
+    font-size:3.3rem;
+    font-family: 'Roboto slab', 'sans-serif';
+    padding-bottom: 5px;
+    border-bottom:#3f83f8 7px solid;
+    width:350px;
+    margin:0;
+}
+
+.about-me-para {
+    font-size:1.2rem;
+    line-height: 1.4;
+    letter-spacing: 1px;
+    margin-bottom:50px;
+}
+
+.my-skils-col {
+    width:350px;
+}
+
+.my-skills-title {
+    font-family: 'Robota slab', 'sans-serif';
+    width:350px;
+    font-size:2.5rem;
+    margin:0;
+    margin-bottom:20px;
+    padding-bottom:5px;
+    border-bottom:#3f83f8 5px solid;
+}
+
+.my-skills-ele {
+    display: inline-block;
+    background: #3f83f8;
+    padding:8px 20px;
+    border-radius:15px;
+    margin:10px 18px;
+    font-size:1.2rem;
+    color:white;
+}
+
+.col-1 {
+    width:70%;
+}
+
+.col-2 {
+    position:relative;
+    height:400px;
+    width:20%;
+}
+
+.js-logo {
+    position: absolute;
+    width:70px;
+    top:0px;
+}
+
+.html-logo {
+    width:55px;
+    position: absolute;
+    top:110px;
+    right:10px;
+}
+
+.css-logo {
+    position: absolute;
+    width:55px;
+    top:220px;
+    left:10px;
+}
+
+.react-logo {
+    width:70px;
+    position: absolute;
+    top:335px;
+    right:0;
+}
+
+/* Projects Section */
+
+.projects-section {
+    width:95%;
+    margin:0 auto;
+    text-align: center;
+    margin-bottom:50px;
+}
+
+.projects-title {
+    font-family:'Robota Slab', 'sans-serif';
+    font-size:3.3rem;
+    margin:0 0 10px 0;
+}
+
+.projects-subtitle {
+    margin:0 0 40px 0;
+    font-size:1.3rem;
+    
+}
+
+.projects {
+    max-width:1200px;
+    margin:0 auto;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-ele {
+    margin:15px;
+    width:300px;
+    height:500px;
+    border:1px solid black;
+    padding-bottom:10px;
+}
+
+.project-ele img {
+    width:100%;
+    height:300px;
+    object-fit: cover;
+}
+
+.project-ele img:hover {
+    width:98%;
+}
+
+.project-ele h3 {
+    font-size:1.45rem;
+}
+
+.api-used {
+    margin-top:-17px;
+    font-size:14px;
+}
+
+.project-ele p a:hover, 
+.project-ele p a:focus {
+    color:#0062b9;
+}
+
+.project-para {
+    margin:0 auto;
+    max-width:90%;
+    letter-spacing: 1px;
+    line-height: 1.4;
+}
+
+/* Contacts Section */
+
+.contacts {
+    width:100%;
+    height:150px;
+    background: #3f83f8;
+    color:white;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    box-shadow:0 0 10px gray;
+}
+
+.contact-name {
+    width:170px;
+    padding-bottom:2.5px;
+    margin-bottom:17px;
+    border-bottom:1px solid white;
+}
+
+.email {
+    margin-top:0;
+}
+
+.socials {
+    padding-bottom:2.5px;
+    margin-bottom:15px;
+    border-bottom:1px solid white;
+    margin-top:0;
+}
+
+.contact-ele a {
+    color:white;
+    text-decoration: none;
+}
+
+.contact-ele  a:hover {
+    color:#303030;
+}
+
+.fa-brands {
+    font-size:25px;
+    margin-right:15px;
+}
+
+.fa-instagram {
+    margin-right:0;
+}
+
+/* Responsive */
+
+@media only screen and (max-width:600px) {
+    .title-img {
+        display: none;
+    }
+    .title, .title strong, .sub-title {
+        text-align: center;
+    }
+}
