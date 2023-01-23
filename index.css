@@ -310,6 +310,9 @@ html, body {
     .nav-bar {
         gap:10px;
     }
+    .nav-list {
+        gap:20px;
+    }
     .nav-bar a {
         font-size:10px;
     }
