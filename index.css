@@ -306,6 +306,10 @@ html, body {
 /* Responsive */
 
 @media only screen and (max-width:600px) {
+    .nav-bar a {
+        font-size:12px;
+    }
+    
     .title-img {
         display: none;
     }
