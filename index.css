@@ -307,7 +307,11 @@ html, body {
 
 @media only screen and (max-width:600px) {
     .nav-bar a {
+        font-size:10px;
+    }
+    .nav-bar p {
         font-size:12px;
+        margin-left:5px;
     }
     
     .title-img {
