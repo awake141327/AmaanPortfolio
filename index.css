@@ -306,6 +306,9 @@ html, body {
 /* Responsive */
 
 @media only screen and (max-width:600px) {
+    .nav-bar {
+        gap:10px;
+    }
     .nav-bar a {
         font-size:10px;
     }
