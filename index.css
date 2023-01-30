@@ -306,7 +306,7 @@ html, body {
 
 /* Responsive */
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:696px) {
     .nav-bar {
         gap:10px;
     }
@@ -318,13 +318,62 @@ html, body {
     }
     .nav-bar p {
         font-size:10px;
-        margin-left:5px;
     }
     
+    
+    .title {
+        font-size:3rem;
+    }
+    .title strong, .about-me-title, .my-skills-title, .projects-title {
+        font-size:2.2rem;
+    }
+    .sub-title {
+        font-size:1.2rem;
+    }
     .title-img {
         display: none;
     }
     .title, .title strong, .sub-title {
         text-align: center;
+    }
+    
+    .about-me-para {
+        font-size:1rem;
+        width:300px;
+        line-height: 1.8;
+    }
+    .my-skills-title, .about-me-title {
+        width:300px;
+    }
+    .my-skills-ele, proje {
+        font-size:12px;
+        margin:10px;
+    }
+    .html-logo, .css-logo, .js-logo, .react-logo {
+        display:none;
+    }
+    
+    .project-ele {
+        border:none;
+    }
+    .project-ele img {
+        margin-bottom:10px;
+    }
+    .project-ele h3 {
+        font-size:1.2rem;
+    }
+    .project-ele p {
+        font-size:0.9rem;
+        line-height:1.8;
+    }
+    
+    .contact-ele h3{
+        font-size:1.1rem;
+    }
+    .contact-ele h4{
+        font-size:0.9rem;
+    }
+    .contact-ele i{
+        font-size:1rem;
     }
 }
